@@ -16,10 +16,13 @@ body {
   background-color: white;
 }
 
-.logo {
-  font-weight: bold;
-  color: #000;
+.logo img {
+  height: 20px;  /* much smaller */
+  width: auto;
+  object-fit: contain;
 }
+
+
 
 .nav-links, .auth-links {
   display: flex;
