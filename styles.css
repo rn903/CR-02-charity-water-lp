@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: #FFF6DD;
+  background-color: #FFF7E1;
   color: #333;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .give-btn {
-  background-color: #FFD500;
+  background-color: #FFC907;
   padding: 6px 12px;
   border-radius: 4px;
   font-weight: bold;
@@ -57,7 +57,7 @@ body {
 }
 
 .hero-text h1 {
-  color: #4A90A4;
+  color: #77A8BB;
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
@@ -84,13 +84,13 @@ body {
 }
 
 .btn.yellow {
-  background-color: #FFD500;
+  background-color: #FFC907;
   color: #000;
 }
 
 .btn.white {
   background-color: white;
-  color: #FFD500;
+  color: #FFC907;
 }
 
 /* Image */
@@ -122,7 +122,7 @@ body {
   padding: 40px 5%;
   text-align: center;
   font-size: 1rem;
-  color: #51A4D3;
+  color: #77A8BB;
   font-weight: 500;
   line-height: 1.6;
 }
