@@ -24,10 +24,15 @@ body {
 
 
 
-.nav-links, .auth-links {
+.nav-links,.auth-links {
   display: flex;
   gap: 20px;
 }
+.auth-links a {
+  display: flex;
+  align-items: center;
+}
+
 
 .nav-links li {
   list-style: none;
@@ -39,11 +44,24 @@ body {
 }
 
 .give-btn {
-  background-color: #FFC907;
-  padding: 6px 12px;
-  border-radius: 4px;
+  background-color: #FFD500;
+  padding: 8px 16px;         /* increase padding */
+  border-radius: 6px;        /* a bit rounder */
   font-weight: bold;
+  color: #000;
+  display: flex;             /* enable flexbox for centering */
+  align-items: center;       /* vertical center */
+  justify-content: center;   /* horizontal center */
+  text-align: center;
+  cursor: pointer;
+  border: none;              /* optional: remove border */
+  transition: background-color 0.3s ease;
 }
+
+.give-btn:hover {
+  background-color: #e6c800;
+}
+
 
 /* Hero Section */
 .hero {
