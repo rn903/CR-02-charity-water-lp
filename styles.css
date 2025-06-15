@@ -158,3 +158,32 @@ body {
     align-items: center;
   }
 }
+/* This makes sure your page looks good on small screens like phones */
+@media (max-width: 600px) {
+  /* Make the navigation links stack vertically */
+  .nav-links {
+    display: block;
+    text-align: center;
+  }
+
+  /* Make the logo smaller */
+  .logo img {
+    width: 120px;
+  }
+
+  /* Stack the hero section content vertically */
+  .hero {
+    display: block;
+  }
+
+  .hero-text, .hero-image {
+    width: 100%;
+    text-align: center;
+    }
+
+  /* Make buttons fill the width on small screens */
+  .buttons a {
+    display: block;
+    margin: 10px 0;
+  }
+}
