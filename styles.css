@@ -103,6 +103,15 @@ body {
   border: 2px solid #000;
   border-radius: 4px;
 }
+.btn {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #f0c400; /* or tweak to your button color */
+}
+
 
 .btn.yellow {
   background-color: #FFC907;
@@ -125,6 +134,14 @@ body {
   width: 100%;
   border-radius: 6px;
 }
+.hero-image img {
+  transition: transform 0.4s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.03);
+}
+
 
 .impact-btn {
   position: absolute;
@@ -239,5 +256,15 @@ body {
   .btn {
     font-size: 0.85rem;
     padding: 8px;
+  }
+}
+.hero-text {
+  opacity: 0;
+  animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
   }
 }
