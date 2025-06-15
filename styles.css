@@ -205,3 +205,39 @@ body {
     font-size: 0.85rem; /* smaller font size */
   }
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .buttons {
+    align-items: center;
+  }
+
+  .nav-links {
+    justify-content: space-around;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+}
